@@ -1,0 +1,28 @@
+PATH
+  remote: ../peacer
+  specs:
+    peacer (0.0.2)
+      erubis
+      multi_json
+      rack (~> 2.2)
+      sqlite3
+      webrick (~> 1.8)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    erubis (2.7.0)
+    multi_json (1.15.0)
+    rack (2.2.8)
+    sqlite3 (1.6.9-arm64-darwin)
+    webrick (1.8.1)
+
+PLATFORMS
+  arm64-darwin-22
+  arm64-darwin-23
+
+DEPENDENCIES
+  peacer!
+
+BUNDLED WITH
+   2.4.10
